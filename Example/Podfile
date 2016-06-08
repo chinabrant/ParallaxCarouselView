@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ParallaxCarouselView_Example' do
+  pod 'ParallaxCarouselView', :path => '../'
+
+  target 'ParallaxCarouselView_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  end
+end
