@@ -1,0 +1,6 @@
+framework module ParallaxCarouselView {
+  umbrella header "ParallaxCarouselView-umbrella.h"
+
+  export *
+  module * { export * }
+}

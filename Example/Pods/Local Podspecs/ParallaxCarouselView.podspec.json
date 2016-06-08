@@ -1,0 +1,22 @@
+{
+  "name": "ParallaxCarouselView",
+  "version": "0.1.0",
+  "summary": "A short description of ParallaxCarouselView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/ParallaxCarouselView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "brant": "wushujun@ibeiliao.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/ParallaxCarouselView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ParallaxCarouselView/Classes/**/*"
+}

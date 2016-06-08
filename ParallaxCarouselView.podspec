@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/ParallaxCarouselView'
+  s.homepage         = 'https://github.com/chinabrant/ParallaxCarouselView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'brant' => 'wushujun@ibeiliao.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/ParallaxCarouselView.git', :tag => s.version.to_s }
+  s.author           = { 'brant' => 'sjwu1234@gmail.com' }
+  s.source           = { :git => 'https://github.com/chinabrant/ParallaxCarouselView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
-  s.source_files = 'ParallaxCarouselView/Classes/**/*'
+  s.source_files = 'ParallaxCarouselView/Classes'
   
   # s.resource_bundles = {
   #   'ParallaxCarouselView' => ['ParallaxCarouselView/Assets/*.png']

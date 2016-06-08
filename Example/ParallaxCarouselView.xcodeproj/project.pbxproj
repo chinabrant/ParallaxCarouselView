@@ -22,6 +22,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		947917FB1D08212000E21084 /* CarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 947917FA1D08212000E21084 /* CarouselView.m */; };
 		CDABFDBCD8DBB63A040C2EA7 /* Pods_ParallaxCarouselView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBDBDF020E3F8FE52C5E96F /* Pods_ParallaxCarouselView_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,8 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		685DD3A0339D62CB3DC370CC /* Pods_ParallaxCarouselView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParallaxCarouselView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		947917F91D08212000E21084 /* CarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarouselView.h; sourceTree = "<group>"; };
+		947917FA1D08212000E21084 /* CarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouselView.m; sourceTree = "<group>"; };
 		A8264746706BD3404B577576 /* Pods-ParallaxCarouselView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParallaxCarouselView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParallaxCarouselView_Tests/Pods-ParallaxCarouselView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B7F3205B28E256B7EF115D2A /* Pods-ParallaxCarouselView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParallaxCarouselView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParallaxCarouselView_Tests/Pods-ParallaxCarouselView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C99E5702D9A85C15B276253D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -107,6 +110,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				947917F81D08210400E21084 /* Classes */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for ParallaxCarouselView */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -191,6 +195,15 @@
 				C99E5702D9A85C15B276253D /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		947917F81D08210400E21084 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				947917F91D08212000E21084 /* CarouselView.h */,
+				947917FA1D08212000E21084 /* CarouselView.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -392,6 +405,7 @@
 			files = (
 				6003F59E195388D20070C39A /* JHAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* JHViewController.m in Sources */,
+				947917FB1D08212000E21084 /* CarouselView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,7 +481,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -500,7 +514,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

@@ -1,4 +1,4 @@
-use_frameworks!
+platform :ios, '7.0'
 
 target 'ParallaxCarouselView_Example' do
   pod 'ParallaxCarouselView', :path => '../'
